@@ -568,7 +568,7 @@ a.pn:hover { text-decoration: none; }
 .pmfl			PM friend list (Window)
 */
 
-/* 通用容器，定义页面宽度 */ .wp { margin: 0 auto; width: 990px; } #wp .wp { width: auto; }
+/* 通用容器，定义页面宽度 */ .wp { margin: 0 auto; width: 1140px; } #wp .wp { width: auto; }
 
 /* 页头 */
 #toptb { line-height: 24px; }
@@ -577,7 +577,7 @@ a.pn:hover { text-decoration: none; }
 #toptb a.hover { background-color: #FFF; }
 #toptb .pipe { float: left; display: none; }
 #hd { border-bottom: {HEADERBORDER} solid {SPECIALBORDER}; {HEADERBGCODE} }
-#hd .wp { padding: 10px 0 0; }
+.wp #hd { padding: 10px 0 0; }
 #diy-tg { float: right; width: 55px; background: url({STATICURL}image/diy/panel-toggle.png) no-repeat 100% 1px; text-indent: -9999px; overflow: hidden; }
 #diy-tg_menu { position: absolute; margin: -2px 0 0 -1px; padding: 6px 0; width: 72px; height: 48px; background: url({STATICURL}image/diy/panel-toggle-drop.png) no-repeat 0 0; text-align: center; }
 #diy-tg_menu a { float: none !important; }
@@ -1659,20 +1659,20 @@ body{ background:#9FBCC1 url({STYLEIMGDIR}/bg.jpg);}
 .hdc h2 a{display: block;background:url({STYLEIMGDIR}/logo.png) no-repeat 50% 0;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="{STYLEIMGDIR}/logo.png" ,sizingMethod="crop"); width:240px; height:58px}
 .wp_bg{background:url({STYLEIMGDIR}/bg_t.jpg) no-repeat 50% 0;}
 .wp_bg #toptb{ background:#fff;filter:alpha(opacity=60);opacity:0.6; border-bottom:1px solid #fff}
-.d_wp {}
-.d_wp #um{ margin-right:5px; }
-.d_wp #nv{ background:none; height:50px; padding:0px;border:none!important}
-.d_wp #nv .l{ float:left;height:50px; width:10px;background:url({STYLEIMGDIR}/dh.png) no-repeat 0 1px;}
-.d_wp #nv .n{background:url({STYLEIMGDIR}/dh.png) repeat-x 0 -49px; margin-left: 10px; margin-right: 10px; padding-top:9px; height:41px;font-family:'Hiragino Sans GB','Microsoft YaHei','宋体',Helvetica,Arial,sans-serif!important;}
-.d_wp #nv .r{ float:right;height:50px; width:10px;background:url({STYLEIMGDIR}/dh.png) no-repeat right 1px;}
-.d_wp #nv .n a{ color:#444}
-.d_wp #nv li{background:url({STYLEIMGDIR}/nv_li.gif) no-repeat right 2px; height:33px!important}
-.d_wp #nv li a:hover{ background:none; color:#215B6A}
+
+#um{ margin-right:5px; }
+#nv{ background:none; height:50px; padding:0px;border:none!important}
+#nv .l{ float:left;height:50px; width:10px;background:url({STYLEIMGDIR}/dh.png) no-repeat 0 1px;}
+#nv .n{background:url({STYLEIMGDIR}/dh.png) repeat-x 0 -49px; margin-left: 10px; margin-right: 10px; padding-top:9px; height:41px;font-family:'Hiragino Sans GB','Microsoft YaHei','宋体',Helvetica,Arial,sans-serif!important;}
+#nv .r{ float:right;height:50px; width:10px;background:url({STYLEIMGDIR}/dh.png) no-repeat right 1px;}
+#nv .n a{ color:#444}
+#nv li{background:url({STYLEIMGDIR}/nv_li.gif) no-repeat right 2px; height:33px!important}
+#nv li a:hover{ background:none; color:#215B6A}
 #nv li.hover a:hover, #nv li.hover a {background:none;}
-.d_wp #nv li.a{ background:url({STYLEIMGDIR}/nv_a.gif) no-repeat 0 1px!important;height:33px!important;overflow:hidden}
-.d_wp #nv li.a a{background:url({STYLEIMGDIR}/nv_a.gif) no-repeat right -31px!important; margin-right:-1px; color:#fff!important}
-.d_wp .h_pop{box-shadow:0px 0px 0px rgba(0,0,0,0.0);filter:none;margin-top:6px; background:#fff; border-color:#A1B5BA}
-.d_wp .h_pop a:hover{ background:#E2EFF1}
+#nv li.a{ background:url({STYLEIMGDIR}/nv_a.gif) no-repeat 0 1px!important;height:33px!important;overflow:hidden}
+#nv li.a a{background:url({STYLEIMGDIR}/nv_a.gif) no-repeat right -31px!important; margin-right:-1px; color:#fff!important}
+.h_pop{box-shadow:0px 0px 0px rgba(0,0,0,0.0);filter:none;margin-top:6px; background:#fff; border-color:#A1B5BA}
+.h_pop a:hover{ background:#E2EFF1}
 
 .y_wp{margin:5px auto;}
 .y_wp .y_wpt{ height:11px; overflow:hidden}
