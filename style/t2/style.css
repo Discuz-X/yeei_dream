@@ -1,0 +1,59 @@
+/*
+[name]黑色[/name]
+[iconbgcolor]#000000[/iconbgcolor]
+Powered by YEEI.CN
+*/
+body{ background:#111 url(bg.jpg);}
+.hdc h2 a{display: block;background:url(logo.png) no-repeat 50% 0;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="template/YeeiCn_dzx/style/t2/logo.png" ,sizingMethod="crop"); width:240px; height:58px}
+.wp_bg{background:url(bg_t.jpg) no-repeat 50% 0;}
+.d_wp #nv li.a{ background:url(nv_a.gif) no-repeat 0 1px!important;}
+.d_wp #nv li.a a{background:url(nv_a.gif) no-repeat right -31px!important;}
+.d_wp #um a,.d_wp #um{ color:#ddd}
+
+.d_wp .fastlg,.d_wp .fastlg a{color:#aaa!important}
+.d_wp .fastlg_l{ border-color:#333}
+
+#ft a,#ft{ color:#777}
+
+.bm_h, .tl th, .tl td { border-bottom-color: #CDCDCD; }
+
+/* 重定义字体 */
+
+.pll .s a.go { color: #FFF; }
+.xi2, .xi2 a { color: #666; }
+
+/* 重定义 {SPECIALBG} */
+.bmn, .bm_h, td.pls, .ad td.plc, div.exfm, .tb a, .tb_h, .ttp li.a a, div.uo a, input#addsubmit_btn, #gh .bm .bm_h, .appnew, .apphot { background-color:#F9F9F9; }
+
+.ct2_a, .ct3_a { background-image: url(vlineb.png); }
+.tbn li.a { background:#F9F9F9; }
+#nv_portal.pg_portalcp .ct2_a_r, #nv_forum.pg_post .ct2_a_r { background-image: none; }
+
+/* 重定义 {SPECIALBORDER} */
+.bmn, .pg a, .pgb a, .pg strong, .card, .card .o, div.exfm  { border-color:#E5E5E5; }
+
+.pn, .tb .o, .tb .o a { background-image: url(pn.png); }
+.pnc, a.pnc, .tb .o { border-color:#9C9C9C; }
+
+td.pls {border-right:1px solid #ddd }
+.ad td.pls { background-color:#EFEFEF; border-right:1px solid #ddd }
+
+/* 重定义按钮 */
+.pgs #newspecial, .pgs #newspecialtmp { float: left; background: url(pn_post.png) no-repeat 0 0; }
+#post_reply, #post_replytmp { float: left; background: url(pn_reply.png) no-repeat 0 0; }
+#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img { opacity: 0; filter: alpha(opacity=0); }
+.moodfm_btn { background-image: url(mood_input_btn.png) !important; }
+#create_group_btn { display: block; background: url(create_group.png) no-repeat 50% 0; }
+#create_group_btn img { opacity: 0; filter: alpha(opacity=0); }
+.el .ec .hot { background-image: url(hotspot.gif); }
+.pll .s { background-image:url(polljoins.gif); }
+
+
+/* 重定义侧边导航 */
+.bdl, .bdl dt, .bdl dd.bdl_a a { border-color: #CDCDCD; background-color:#F9F9F9; }
+.bdl dt { background-image: url(titlebg_sd.png); }
+.bdl dd.bdl_a a { color: #CA4312; }
+
+.d_wp .h_pop{box-shadow:0px 0px 0px rgba(0,0,0,0.0);filter:none; background:#fff; border-color:#ddd}
+.d_wp .h_pop a{border-color:#eee}
+.d_wp .h_pop a:hover{ background:#F9F9F9; color:#666;}

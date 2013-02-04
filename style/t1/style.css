@@ -1,0 +1,10 @@
+/*
+[name]天空[/name]
+[iconbgcolor]#2773A4[/iconbgcolor]
+Powered by YEEI.CN
+*/
+body{ background:#D4E6F4 url(bg.jpg) repeat-x 0 0;}
+.hdc h2 a{display: block;background:url(logo.png) no-repeat 50% 0;_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="template/YeeiCn_dzx/style/t1/logo.png" ,sizingMethod="crop"); width:240px; height:58px}
+.wp_bg{background:url(bg_t.jpg) no-repeat 50% 0;}
+.d_wp #nv li.a{ background:url(nv_a.gif) no-repeat 0 1px!important;}
+.d_wp #nv li.a a{background:url(nv_a.gif) no-repeat right -31px!important;}
